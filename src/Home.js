@@ -30,7 +30,7 @@ export default function Home(props) {
       <div className="container">
        
 
-        <div className="mb-3" style={{ width: "100%", display: "inline-flex" }}>
+        <div className="m-3" style={{ width: "100%" }}>
           <textarea className="form-control" id="exampleFormControlTextarea1" value={input} onChange={updateInput} rows="3"
             style={{ backgroundColor: '#0d0d26', color: '#ffffff' }}></textarea>
           <div style={{ marginLeft: '5px' }}>
